@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+  <div class="Form">
+    <form name="myForm" onsubmit="return (FormValidation())" autocomplete="on">
+        <label form="name">Name</label>
+        <input type="text" id="name" name="name">
+        <span id="nmessage" style="color: red;"></span><br>
+    
+        <label form="email">Email</label>
+        <input type="text" id="email" name="email">
+        <span id="emessage" style="color: red;"></span><br>
+    
+        <label form="Phone">Phone Number</label>
+        <input type="tel" id="Phone" name="Phone">
+        <span id="pmessage" style="color: red;"></span><br>
+    
+        <label form="Password">Password</label>
+        <input type="password" id="password" name="password">
+        <span id="pwmessage" style="color: red;"></span><br>
+    
+        <label form="Password">Confirm Password</label>
+        <input type="password" id="C-password" name="cpassword">
+        <span id="cpmessage" style="color: red;"></span><br>
+        <input type="submit" class="btn-submit">
+    
+       </form>
+  </div> 
+  <script src="/Assets/js/form.js">
+
+  </script>
+</body>
+</html>

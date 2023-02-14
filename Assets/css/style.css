@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.Form{
+    width: 500px;
+    margin: auto;
+    padding: 4rem;
+}
+
+input{
+    width: 100%;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+label{
+    padding-bottom: 1rem;
+}
+
+.btn-submit{
+    width: 160px;
+    float: right;
+    padding: 1rem 2.5rem;
+}

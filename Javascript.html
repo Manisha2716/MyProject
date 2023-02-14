@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #loading{
+            background-image: url("Assets/Uploads/loading.png");
+            background-size: 100% 100%;
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+        }
+    </style>
+</head>
+<body onload = "onload">
+    <div id ="loading">
+
+    </div>
+    <button onclick="myFunction();"> Students information </button>
+    <p id ="onMouseOver" onmouseover="onMouseOver()" onmouseout="onMouseOut()" onmousedown="onMouseDown()">
+        Hello World!!
+    </p>
+   <form action="">
+    <input type="text" id="onChange" onchange="onChange">
+   </form>
+   <div class="demo">
+    Lorem ipsum dolor sit amet.
+   </div>
+   <form action="">
+
+    <h1 style="text-align: center;"> Register Form</h1>
+    <div class="container">
+      <div class="input-container">
+        <i class="fa-solid fa-user "></i>
+        <input class="input-field" type="text" placeholder="Username" name="username">
+      </div>
+
+      <div class="input-container">
+        <i class="fa-solid fa-key"></i>
+        <input class="input-field" type="password" placeholder="Password" name="password">
+      </div>
+
+      <div class="input-container">
+        <i class="fa-solid fa-key icon "></i>
+        <input class="input-field" type="password" placeholder=" Confirm Your Password" name="password">
+      </div>
+      <select name="country" required>
+        <option value="" disabled selected hidden>Select a country</option>
+        <option value="Nepal">Nepal</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="Korea">Korea</option>
+      </select>
+
+      <button type="submit">Register</button>
+      <label>
+        <input type="checkbox" name="remember"> I agree all the terms and conditions
+      </label>
+    </div>
+
+    <div class="container">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw"> <a href="#">Forgot password?</a></span>
+    </div>
+
+  </form>
+   
+   <script src="Assets/js/Script.js">
+               
+</script>
+</body>
+</html>
